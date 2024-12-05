@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAFIA DO PORTO (MP)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #1a1a1a; /* Preto */
+            color: #f8f9fa; /* Branco */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #dc3545; /* Vermelho */
+        }
+
+        .navbar a {
+            color: white !important;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #dc3545; /* Vermelho */
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            color: #f8f9fa;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .card {
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: #dc3545; /* Vermelho */
+        }
+
+        .card-text {
+            font-size: 1.1rem;
+            color: #f8f9fa;
+        }
+
+        .card img {
+            border-radius: 10px;
+            margin-bottom: 15px;
+            object-fit: cover;
+            height: 300px;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: #dc3545; /* Vermelho */
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #c82333; /* Vermelho escuro */
+        }
+
+        .hr-custom {
+            border-top: 2px solid #dc3545; /* Vermelho */
+            margin: 30px 0;
+        }
+
+        footer {
+            background-color: #dc3545; /* Vermelho */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #f8f9fa;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">MAFIA DO PORTO (MP)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#farms">Farms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clas">Clãs Adjacentes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="section-title">MAFIA DO PORTO (MP)</h1>
+        <p class="section-description">Se você é fã de RP, este é o seu lugar! Nosso foco é proporcionar uma experiência rica em RP e comércio no servidor, sempre buscando a paz e evitando conflitos desnecessários. Temos diversas divisões, e se RP não é a sua praia, sem problemas – a participação não é obrigatória. Contamos também com clãs afiliados, como as Tanajuras (TNJ). Venha fazer parte de um projeto que valoriza seu conforto e felicidade. Embora nosso objetivo seja manter a harmonia, sabemos nos defender: se mexer com um de nós, mexeu com todos.</p>
+
+        <hr class="hr-custom" id="farms">
+
+        <h1 class="section-title">Farms</h1>
+        <p class="section-description">Temos farms exclusivas e as melhores que o jogo tem a oferecer.</p>
+        <div class="image-container">
+            <img src="imagens/MP/farmdecreaper.jpg" class="img-fluid" alt="Farm de Creeper">
+        </div>
+
+        <hr class="hr-custom" id="clas">
+
+        <h1 class="section-title">Clãs Adjacentes</h1>
+        <p class="section-description">O clã TNJ faz parte do nosso clã, é um clã afiliado do primo do nosso líder foxrd.</p>
+        <div class="image-container">
+            <img src="imagens/MP/tnj.jpg" class="img-fluid" alt="Clã TNJ">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MAFIA DO PORTO (MP) | Todos os direitos reservados</p>
+        <a href="#top">Voltar ao topo</a>
+        <br>
+        <a href="pagina_principal.html">Voltar à página principal</a>
+    </footer>
+</body>
+</html>
